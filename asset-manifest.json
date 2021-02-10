@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/riskidwi1711/portofolio/static/css/main.a6d2fa6d.chunk.css",
+    "main.js": "/riskidwi1711/portofolio/static/js/main.c8235e58.chunk.js",
+    "main.js.map": "/riskidwi1711/portofolio/static/js/main.c8235e58.chunk.js.map",
+    "runtime-main.js": "/riskidwi1711/portofolio/static/js/runtime-main.1d243406.js",
+    "runtime-main.js.map": "/riskidwi1711/portofolio/static/js/runtime-main.1d243406.js.map",
+    "static/js/2.d71c9fa0.chunk.js": "/riskidwi1711/portofolio/static/js/2.d71c9fa0.chunk.js",
+    "static/js/2.d71c9fa0.chunk.js.map": "/riskidwi1711/portofolio/static/js/2.d71c9fa0.chunk.js.map",
+    "index.html": "/riskidwi1711/portofolio/index.html",
+    "static/css/main.a6d2fa6d.chunk.css.map": "/riskidwi1711/portofolio/static/css/main.a6d2fa6d.chunk.css.map",
+    "static/js/2.d71c9fa0.chunk.js.LICENSE.txt": "/riskidwi1711/portofolio/static/js/2.d71c9fa0.chunk.js.LICENSE.txt",
+    "static/media/tailwind.css": "/riskidwi1711/portofolio/static/media/Poppins-Bold.404e299b.ttf",
+    "static/media/main.css": "/riskidwi1711/portofolio/static/media/patternLight.9878fdbb.svg",
+    "static/media/alert.575eb068.svg": "/riskidwi1711/portofolio/static/media/alert.575eb068.svg",
+    "static/media/bootstrap-5-1.9332cba3.svg": "/riskidwi1711/portofolio/static/media/bootstrap-5-1.9332cba3.svg",
+    "static/media/codeignite.19d70fa3.svg": "/riskidwi1711/portofolio/static/media/codeignite.19d70fa3.svg",
+    "static/media/css3.224d772c.svg": "/riskidwi1711/portofolio/static/media/css3.224d772c.svg",
+    "static/media/dart.bcdc2bf5.svg": "/riskidwi1711/portofolio/static/media/dart.bcdc2bf5.svg",
+    "static/media/flutter.72caa2d2.svg": "/riskidwi1711/portofolio/static/media/flutter.72caa2d2.svg",
+    "static/media/html5.bee878d1.svg": "/riskidwi1711/portofolio/static/media/html5.bee878d1.svg",
+    "static/media/javascript.3c10a7a6.svg": "/riskidwi1711/portofolio/static/media/javascript.3c10a7a6.svg",
+    "static/media/mysql.ec324163.svg": "/riskidwi1711/portofolio/static/media/mysql.ec324163.svg",
+    "static/media/php.0b5022b6.svg": "/riskidwi1711/portofolio/static/media/php.0b5022b6.svg",
+    "static/media/post.32f79993.svg": "/riskidwi1711/portofolio/static/media/post.32f79993.svg",
+    "static/media/react.8d945b64.svg": "/riskidwi1711/portofolio/static/media/react.8d945b64.svg",
+    "static/media/s.0208f927.svg": "/riskidwi1711/portofolio/static/media/s.0208f927.svg",
+    "static/media/up-arrow.d095ec1c.svg": "/riskidwi1711/portofolio/static/media/up-arrow.d095ec1c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d243406.js",
+    "static/js/2.d71c9fa0.chunk.js",
+    "static/css/main.a6d2fa6d.chunk.css",
+    "static/js/main.c8235e58.chunk.js"
+  ]
+}
