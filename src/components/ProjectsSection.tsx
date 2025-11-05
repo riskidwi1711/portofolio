@@ -19,29 +19,23 @@ interface ProjectsSectionProps {
 const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
   const [activeFilter, setActiveFilter] = useState('All');
   
-  const categories = ['All', 'React', 'Vue', 'MongoDB', 'PostgreSQL'];
+  const categories = ['All', 'React', 'Vue', 'Node.js', 'Go', 'Python', 'Laravel', 'PostgreSQL', 'MongoDB', 'Blockchain'];
   
-  const projectImages = [
-    "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop", // Flight booking
-    "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop", // Todo/Kanban
-    "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop", // Kanban
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop", // E-commerce
-    "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop", // E-commerce
-    "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop", // Blog
-  ];
-
   const projectStats = [
-    "🚀 Live & Active",
-    "🔥 100+ Users",
-    "⚡ Scalable Architecture",
-    "🛒 E-commerce Ready",
-    "💰 Revenue Generator",
-    "📝 Content Management"
+    "🗳️ Blockchain-Powered",
+    "🛡️ Fraud Prevention",
+    "💳 Payment Gateway",
+    "📰 Multi-Tenant CMS",
+    "🌍 International Transfer",
+    "📊 Financial Analytics",
+    "🤖 Bot Automation",
+    "🚀 CDN Service",
+    "⚡ Microservices",
+    "✈️ Live Demo Available"
   ];
 
   const enhancedProjects = projects.map((project, index) => ({
     ...project,
-    image: projectImages[index] || project.image,
     stats: projectStats[index] || "⭐ Featured Project"
   }));
 

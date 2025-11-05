@@ -100,46 +100,74 @@ const Index = () => {
     },
     projects: [
       {
+        name: "SIREKAP Clone",
+        description: "Blockchain-based e-voting system for transparent election vote tabulation from TPS to KPU with public transparency",
+        technologies: ["Python", "FastAPI", "MongoDB", "Hyperledger Fabric", "IPFS", "Docker"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1495592822108-9e6261896da8?w=500&h=300&fit=crop"
+      },
+      {
+        name: "ActionPay FDS",
+        description: "Comprehensive fraud detection system with identity verification, risk scoring, and screening for financial transactions",
+        technologies: ["Go", "PostgreSQL", "RabbitMQ", "Docker", "GCP"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=500&h=300&fit=crop"
+      },
+      {
+        name: "Omni Payment Integration",
+        description: "Payment gateway integration system with Virtual Account, Money Out, and automated settlement processing",
+        technologies: ["Laravel", "PHP", "Queue Jobs", "MySQL"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
+      },
+      {
+        name: "ID News Portal",
+        description: "Multi-tenant CMS news portal with React theme builder and CDN service for media management",
+        technologies: ["Next.js", "React", "Hono", "PostgreSQL", "CDN"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=500&h=300&fit=crop"
+      },
+      {
+        name: "International Money Transfer",
+        description: "Cross-border remittance system with dynamic payload validation for multiple countries and currencies",
+        technologies: ["Node.js", "Express.js", "RabbitMQ", "MySQL"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=500&h=300&fit=crop"
+      },
+      {
+        name: "Payment Dashboard",
+        description: "Financial dashboard with optimized reporting for member contributions and payment history tracking",
+        technologies: ["Laravel", "PostgreSQL", "Vue.js", "ECharts"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop"
+      },
+      {
+        name: "Telegram Registration Bot",
+        description: "Telegram bot for user registration and area monitoring with filtering by location (Kabupaten/Kecamatan/Kelurahan)",
+        technologies: ["Node.js", "Telegram Bot API", "JSON Storage"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=500&h=300&fit=crop"
+      },
+      {
+        name: "Riski-Labs CDN",
+        description: "Internal CDN service for serving static assets with Nginx optimization and SPA rewrite rules",
+        technologies: ["Nginx", "Node.js", "Docker"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=300&fit=crop"
+      },
+      {
+        name: "Microservices Frontend Platform",
+        description: "Modular frontend platform with microservices architecture, deployed with pm2 and Nginx reverse proxy",
+        technologies: ["Vite", "Vue.js", "pm2", "Nginx", "MinIO", "RabbitMQ"],
+        url: "#",
+        image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop"
+      },
+      {
         name: "Skypedia",
         description: "A simple website to book flights",
         technologies: ["React.js", "Node.js", "Express.js", "PostgreSQL"],
         url: "https://github.com/riskidwipatrio/skypedia",
         image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
-      },
-      {
-        name: "FancyTodo",
-        description: "A todo board for task management",
-        technologies: ["React.js", "Redux", "Node.js", "MongoDB"],
-        url: "https://github.com/riskidwipatrio/FancyTodo",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
-      },
-      {
-        name: "Kanban",
-        description: "A kanban board for project management",
-        technologies: ["Vue.js", "Vuex", "Node.js", "PostgreSQL"],
-        url: "https://github.com/riskidwipatrio/kanban",
-        image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=500&h=300&fit=crop"
-      },
-      {
-        name: "CMS H8 Store",
-        description: "A simple marketplace CMS",
-        technologies: ["React.js", "Node.js", "MongoDB"],
-        url: "https://linktr.ee/riskidwipatrio_cms",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
-      },
-      {
-        name: "E-Commerce App",
-        description: "An online store for various products",
-        technologies: ["React.js", "Redux", "Node.js", "MongoDB"],
-        url: "https://github.com/riskidwipatrio/ecommerce-app",
-        image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop"
-      },
-      {
-        name: "Blog Platform",
-        description: "A platform for managing blogs",
-        technologies: ["Vue.js", "Node.js", "MongoDB"],
-        url: "https://github.com/riskidwipatrio/blog-platform",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=500&h=300&fit=crop"
       }
     ]
   };
